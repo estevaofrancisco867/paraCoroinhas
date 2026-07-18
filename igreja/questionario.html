@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Questionário Litúrgico</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+<style>
+
+footer{
+    background: green;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:40px;
+    font-size:15px;
+}
+
+body{
+    background:#f5f5f5;
+}
+
+
+.hero{
+
+    background:linear-gradient(135deg,#198754,#0f5132);
+    color:white;
+    padding:60px 20px;
+    text-align:center;
+
+}
+
+
+.card{
+
+    border:none;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    margin-bottom:25px;
+
+}
+
+
+.resultado{
+
+    display:none;
+    text-align:center;
+    font-size:25px;
+    padding:25px;
+
+}
+
+
+
+</style>
+
+</head>
+
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm"
+     style="border-bottom: 2px solid #dee2e6;">
+
+    <div class="container">
+
+        <a class="navbar-brand" href="index.html">
+            Formação Litúrgica
+        </a>
+
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menu">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+    <a class="nav-link" href="objetos.html">Objetos</a>
+</li>
+
+<span style="border-left:1px solid #ccc; height:24px; align-self:center;"></span>
+
+<li class="nav-item">
+    <a class="nav-link" href="partesMissa.html">Santa Missa</a>
+</li>
+
+<span style="border-left:1px solid #ccc; height:24px; align-self:center;"></span>
+
+<li class="nav-item">
+    <a class="nav-link" href="Missal.html">Missal</a>
+</li>
+
+<span style="border-left:1px solid #ccc; height:24px; align-self:center;"></span>
+
+<li class="nav-item">
+    <a class="nav-link" href="saoTarcicio.html"> São Tarcísio</a>
+</li>
+
+<span style="border-left:1px solid #ccc; height:24px; align-self:center;"></span>
+
+<li class="nav-item">
+    <a class="nav-link" href="questionario.html">Questionário</a>
+</li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</nav>
+
+
+<section class="hero">
+
+<div class="container">
+
+<h1>
+Questionário Litúrgico
+</h1>
+
+<p class="lead">
+Teste seus conhecimentos sobre Santa Missa, Missal Romano, objetos litúrgicos e São Tarcísio.
+</p>
+
+</div>
+
+</section>
+
+
+
+<div class="container my-5">
+
+
+<form id="quizForm">
+
+
+
+<!-- PERGUNTA 1 -->
+
+<!-- PERGUNTA 1 -->
+
+<div class="card p-4">
+
+<h5>
+1 - Em qual livro encontram-se a Oração da Coleta, a Oração sobre as Oferendas e a Oração Pós-Comunhão?
+</h5>
+
+<div>
+
+<input type="radio" name="q1" value="a">
+Lecionário
+
+<br>
+
+<input type="radio" name="q1" value="b">
+Missal Romano
+
+<br>
+
+<input type="radio" name="q1" value="c">
+Evangeliário
+
+</div>
+
+</div>
+
+
+
+
+
+<!-- PERGUNTA 2 -->
+
+<div class="card p-4">
+
+<h5>
+2 - Em qual livro estão as leituras proclamadas durante a Liturgia da Palavra?
+</h5>
+
+<div>
+
+<input type="radio" name="q2" value="a">
+Missal Romano
+
+<br>
+
+<input type="radio" name="q2" value="b">
+Lecionário
+
+<br>
+
+<input type="radio" name="q2" value="c">
+Liturgia das Horas
+
+</div>
+
+</div>
+
+
+
+
+
+<!-- PERGUNTA 3 -->
+
+<div class="card p-4">
+
+<h5>
+3 - Qual é a primeira grande parte do Ordinário da Missa?
+</h5>
+
+<div>
+
+<input type="radio" name="q3" value="a">
+Liturgia Eucarística
+
+<br>
+
+<input type="radio" name="q3" value="b">
+Ritos Iniciais
+
+<br>
+
+<input type="radio" name="q3" value="c">
+Ritos Finais
+
+</div>
+
+</div>
+
+
+
+
+
+<!-- PERGUNTA 4 -->
+
+<div class="card p-4">
+
+<h5>
+4 - Em qual parte da Missa é proclamado o Evangelho?
+</h5>
+
+<div>
+
+<input type="radio" name="q4" value="a">
+Liturgia da Palavra
+
+<br>
+
+<input type="radio" name="q4" value="b">
+Liturgia Eucarística
+
+<br>
+
+<input type="radio" name="q4" value="c">
+Rito da Comunhão
+
+</div>
+
+</div>
+
+
+
+
+
+<!-- PERGUNTA 5 -->
+
+<div class="card p-4">
+
+<h5>
+5 - Qual objeto litúrgico é utilizado para conter o vinho que será consagrado?
+</h5>
+
+<div>
+
+<input type="radio" name="q5" value="a">
+Cálice
+
+<br>
+
+<input type="radio" name="q5" value="b">
+Âmbula
+
+<br>
+
+<input type="radio" name="q5" value="c">
+Naveta
+
+</div>
+
+</div>
+
+
+
+
+
+<!-- PERGUNTA 6 -->
+
+<div class="card p-4">
+
+<h5>
+6 - Qual objeto litúrgico é utilizado para a exposição do Santíssimo Sacramento?
+</h5>
+
+<div>
+
+<input type="radio" name="q6" value="a">
+Ostensório
+
+<br>
+
+<input type="radio" name="q6" value="b">
+Cálice
+
+<br>
+
+<input type="radio" name="q6" value="c">
+Galheta
+
+</div>
+
+</div>
+
+
+
+
+
+<!-- PERGUNTA 7 -->
+
+<div class="card p-4">
+
+<h5>
+7 - Qual tempo litúrgico prepara a Igreja para celebrar o Natal do Senhor?
+</h5>
+
+<div>
+
+<input type="radio" name="q7" value="a">
+Quaresma
+
+<br>
+
+<input type="radio" name="q7" value="b">
+Advento
+
+<br>
+
+<input type="radio" name="q7" value="c">
+Tempo Pascal
+
+</div>
+
+</div>
+
+
+
+
+
+<!-- PERGUNTA 8 -->
+
+<div class="card p-4">
+
+<h5>
+8 - Em qual parte da Missa encontra-se a Oração Eucarística?
+</h5>
+
+<div>
+
+<input type="radio" name="q8" value="a">
+Liturgia Eucarística
+
+<br>
+
+<input type="radio" name="q8" value="b">
+Ritos Iniciais
+
+<br>
+
+<input type="radio" name="q8" value="c">
+Ritos Finais
+
+</div>
+
+</div>
+
+
+
+
+
+<!-- PERGUNTA 9 -->
+
+<div class="card p-4">
+
+<h5>
+9 - Qual é a primeira oração do Rito da Comunhão?
+</h5>
+
+<div>
+
+<input type="radio" name="q9" value="a">
+Credo
+
+<br>
+
+<input type="radio" name="q9" value="b">
+Pai-Nosso
+
+<br>
+
+<input type="radio" name="q9" value="c">
+Glória
+
+</div>
+
+</div>
+
+
+
+
+
+<!-- PERGUNTA 10 -->
+
+<div class="card p-4">
+
+<h5>
+10 - Qual é a cor litúrgica utilizada durante a maior parte do Tempo Comum?
+</h5>
+
+<div>
+
+<input type="radio" name="q10" value="a">
+Verde
+
+<br>
+
+<input type="radio" name="q10" value="b">
+Branco
+
+<br>
+
+<input type="radio" name="q10" value="c">
+Roxo
+
+</div>
+
+</div>
+
+
+
+
+
+<!-- PERGUNTA 11 -->
+
+<div class="card p-4">
+
+<h5>
+11 - O Próprio dos Santos reúne os formulários das celebrações de:
+</h5>
+
+<div>
+
+<input type="radio" name="q11" value="a">
+Santos e santas
+
+<br>
+
+<input type="radio" name="q11" value="b">
+Somente papas
+
+<br>
+
+<input type="radio" name="q11" value="c">
+Somente bispos
+
+</div>
+
+</div>
+
+
+
+
+
+<!-- PERGUNTA 12 -->
+
+<div class="card p-4">
+
+<h5>
+12 - Em qual parte da Missa são proclamadas as leituras retiradas do Lecionário?
+</h5>
+
+<div>
+
+<input type="radio" name="q12" value="a">
+Liturgia da Palavra
+
+<br>
+
+<input type="radio" name="q12" value="b">
+Rito da Comunhão
+
+<br>
+
+<input type="radio" name="q12" value="c">
+Ritos Finais
+
+</div>
+
+</div>
+
+
+
+
+
+<!-- PERGUNTA 13 -->
+
+<div class="card p-4">
+
+<h5>
+13 - Qual objeto litúrgico é utilizado para guardar as hóstias consagradas durante a Missa?
+</h5>
+
+<div>
+
+<input type="radio" name="q13" value="a">
+Cibório (Âmbula)
+
+<br>
+
+<input type="radio" name="q13" value="b">
+Castiçal
+
+<br>
+
+<input type="radio" name="q13" value="c">
+Turíbulo
+
+</div>
+
+</div>
+
+
+
+
+
+<!-- PERGUNTA 14 -->
+
+<div class="card p-4">
+
+<h5>
+14 - Quem utiliza o Missal Romano para presidir a celebração da Santa Missa?
+</h5>
+
+<div>
+
+<input type="radio" name="q14" value="a">
+Sacerdote
+
+<br>
+
+<input type="radio" name="q14" value="b">
+Leitor
+
+<br>
+
+<input type="radio" name="q14" value="c">
+Coral
+
+</div>
+
+</div>
+
+
+
+
+
+<!-- PERGUNTA 15 -->
+
+<div class="card p-4">
+
+<h5>
+15 - O Cânon Romano corresponde a qual Oração Eucarística?
+</h5>
+
+<div>
+
+<input type="radio" name="q15" value="a">
+Oração Eucarística I
+
+<br>
+
+<input type="radio" name="q15" value="b">
+Oração Eucarística IV
+
+<br>
+
+<input type="radio" name="q15" value="c">
+Oração Eucarística II
+
+</div>
+
+</div>
+
+
+
+
+
+<!-- PERGUNTA 16 -->
+
+<div class="card p-4">
+
+<h5>
+16 - Qual é a principal finalidade do turíbulo na celebração da Missa?
+</h5>
+
+<div>
+
+<input type="radio" name="q16" value="a">
+Queimar o incenso
+
+<br>
+
+<input type="radio" name="q16" value="b">
+Conter água benta
+
+<br>
+
+<input type="radio" name="q16" value="c">
+Guardar o vinho
+
+</div>
+
+</div>
+
+
+
+
+
+<!-- PERGUNTA 17 -->
+
+<div class="card p-4">
+
+<h5>
+17 - Qual tempo litúrgico prepara os fiéis para a celebração da Páscoa?
+</h5>
+
+<div>
+
+<input type="radio" name="q17" value="a">
+Quaresma
+
+<br>
+
+<input type="radio" name="q17" value="b">
+Advento
+
+<br>
+
+<input type="radio" name="q17" value="c">
+Tempo Comum
+
+</div>
+
+</div>
+
+
+
+
+
+<!-- PERGUNTA 18 -->
+
+<div class="card p-4">
+
+<h5>
+18 - Em qual parte da Missa o sacerdote concede a bênção ao povo antes da despedida?
+</h5>
+
+<div>
+
+<input type="radio" name="q18" value="a">
+Ritos Finais
+
+<br>
+
+<input type="radio" name="q18" value="b">
+Ritos Iniciais
+
+<br>
+
+<input type="radio" name="q18" value="c">
+Liturgia Eucarística
+
+</div>
+
+</div>
+
+
+
+
+
+<!-- PERGUNTA 19 -->
+
+<div class="card p-4">
+
+<h5>
+19 - São Tarcísio é lembrado principalmente por ter protegido:
+</h5>
+
+<div>
+
+<input type="radio" name="q19" value="a">
+A Sagrada Eucaristia
+
+<br>
+
+<input type="radio" name="q19" value="b">
+Os livros litúrgicos
+
+<br>
+
+<input type="radio" name="q19" value="c">
+A Basílica de São Pedro
+
+</div>
+
+</div>
+
+
+
+
+
+<!-- PERGUNTA 20 -->
+
+<div class="card p-4">
+
+<h5>
+20 - Em uma Missa do 15º Domingo do Tempo Comum, qual sequência de fitas no Missal é a mais adequada?
+</h5>
+
+<div>
+
+<input type="radio" name="q20" value="a">
+Ordinário da Missa, Próprio do Tempo, Prefácio, Oração Eucarística e Bênção Solene (quando prevista)
+
+<br>
+
+<input type="radio" name="q20" value="b">
+Somente Ordinário da Missa e Lecionário
+
+<br>
+
+<input type="radio" name="q20" value="c">
+Próprio dos Santos, Prefácio e Glossário
+
+</div>
+
+</div>
+
+
+
+
+
+<button 
+type="button" 
+onclick="corrigir()" 
+class="btn btn-success btn-lg w-100">
+
+Enviar para correção
+
+</button>
+
+
+
+</form>
+
+
+
+
+<div id="resultado" class="resultado card mt-4">
+
+</div>
+
+
+
+</div>
+
+
+
+
+<script>
+
+
+function corrigir(){
+
+
+let respostas = {
+
+q1:"b",
+q2:"b",
+q3:"b",
+q4:"a",
+q5:"a",
+q6:"a",
+q7:"b",
+q8:"a",
+q9:"b",
+q10:"a",
+q11:"a",
+q12:"a",
+q13:"a",
+q14:"a",
+q15:"a",
+q16:"a",
+q17:"a",
+q18:"a",
+q19:"a",
+q20:"a"
+
+};
+
+
+let acertos = 0;
+
+
+
+for(let pergunta in respostas){
+
+
+let resposta = document.querySelector(
+'input[name="'+pergunta+'"]:checked'
+);
+
+
+
+if(resposta && resposta.value === respostas[pergunta]){
+
+acertos++;
+
+}
+
+
+}
+
+
+
+
+let resultado = document.getElementById("resultado");
+
+
+resultado.style.display="block";
+
+
+resultado.innerHTML = 
+`
+<h3>Resultado</h3>
+
+<p>
+Você acertou 
+<strong>${acertos}</strong>
+de 20 perguntas.
+</p>
+
+<p>
+Nota:
+<strong>${(acertos/20*10).toFixed(1)}</strong>
+</p>
+`;
+
+
+
+}
+
+
+
+</script>
+
+<footer>
+    © 2026 Estêvão • Todos os direitos reservados.
+</footer>
+
+
+
+</body>
+
+</html>
